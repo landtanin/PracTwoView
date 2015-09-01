@@ -13,7 +13,7 @@
 		81B2DFCD1B95F3690017E163 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B2DFCC1B95F3690017E163 /* Images.xcassets */; };
 		81B2DFD01B95F3690017E163 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81B2DFCE1B95F3690017E163 /* LaunchScreen.xib */; };
 		81B2DFDC1B95F3690017E163 /* PracTwoViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B2DFDB1B95F3690017E163 /* PracTwoViewTests.swift */; };
-		81B2DFE81B95FD300017E163 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B2DFE71B95FD300017E163 /* ViewController2.swift */; };
+		81B2DFEC1B95FFBD0017E163 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B2DFEB1B95FFBD0017E163 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 		81B2DFD51B95F3690017E163 /* PracTwoViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracTwoViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B2DFDA1B95F3690017E163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81B2DFDB1B95F3690017E163 /* PracTwoViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracTwoViewTests.swift; sourceTree = "<group>"; };
-		81B2DFE71B95FD300017E163 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		81B2DFEB1B95FFBD0017E163 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 			children = (
 				81B2DFC51B95F3690017E163 /* AppDelegate.swift */,
 				81B2DFC71B95F3690017E163 /* ViewController.swift */,
-				81B2DFE71B95FD300017E163 /* ViewController2.swift */,
+				81B2DFEB1B95FFBD0017E163 /* ViewController2.swift */,
 				81B2DFC91B95F3690017E163 /* Main.storyboard */,
 				81B2DFCC1B95F3690017E163 /* Images.xcassets */,
 				81B2DFCE1B95F3690017E163 /* LaunchScreen.xib */,
@@ -217,7 +217,7 @@
 			files = (
 				81B2DFC81B95F3690017E163 /* ViewController.swift in Sources */,
 				81B2DFC61B95F3690017E163 /* AppDelegate.swift in Sources */,
-				81B2DFE81B95FD300017E163 /* ViewController2.swift in Sources */,
+				81B2DFEC1B95FFBD0017E163 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
