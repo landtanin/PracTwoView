@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81B2DFC61B95F3690017E163 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B2DFC51B95F3690017E163 /* AppDelegate.swift */; };
+		81B2DFC81B95F3690017E163 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B2DFC71B95F3690017E163 /* ViewController.swift */; };
+		81B2DFCB1B95F3690017E163 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B2DFC91B95F3690017E163 /* Main.storyboard */; };
+		81B2DFCD1B95F3690017E163 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B2DFCC1B95F3690017E163 /* Images.xcassets */; };
+		81B2DFD01B95F3690017E163 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81B2DFCE1B95F3690017E163 /* LaunchScreen.xib */; };
+		81B2DFDC1B95F3690017E163 /* PracTwoViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B2DFDB1B95F3690017E163 /* PracTwoViewTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81B2DFD61B95F3690017E163 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81B2DFB81B95F3690017E163 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81B2DFBF1B95F3690017E163;
+			remoteInfo = PracTwoView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81B2DFC01B95F3690017E163 /* PracTwoView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracTwoView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B2DFC41B95F3690017E163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B2DFC51B95F3690017E163 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81B2DFC71B95F3690017E163 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81B2DFCA1B95F3690017E163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81B2DFCC1B95F3690017E163 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		81B2DFCF1B95F3690017E163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		81B2DFD51B95F3690017E163 /* PracTwoViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracTwoViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B2DFDA1B95F3690017E163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B2DFDB1B95F3690017E163 /* PracTwoViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracTwoViewTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81B2DFBD1B95F3690017E163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B2DFD21B95F3690017E163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81B2DFB71B95F3690017E163 = {
+			isa = PBXGroup;
+			children = (
+				81B2DFC21B95F3690017E163 /* PracTwoView */,
+				81B2DFD81B95F3690017E163 /* PracTwoViewTests */,
+				81B2DFC11B95F3690017E163 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81B2DFC11B95F3690017E163 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81B2DFC01B95F3690017E163 /* PracTwoView.app */,
+				81B2DFD51B95F3690017E163 /* PracTwoViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81B2DFC21B95F3690017E163 /* PracTwoView */ = {
+			isa = PBXGroup;
+			children = (
+				81B2DFC51B95F3690017E163 /* AppDelegate.swift */,
+				81B2DFC71B95F3690017E163 /* ViewController.swift */,
+				81B2DFC91B95F3690017E163 /* Main.storyboard */,
+				81B2DFCC1B95F3690017E163 /* Images.xcassets */,
+				81B2DFCE1B95F3690017E163 /* LaunchScreen.xib */,
+				81B2DFC31B95F3690017E163 /* Supporting Files */,
+			);
+			path = PracTwoView;
+			sourceTree = "<group>";
+		};
+		81B2DFC31B95F3690017E163 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81B2DFC41B95F3690017E163 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81B2DFD81B95F3690017E163 /* PracTwoViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				81B2DFDB1B95F3690017E163 /* PracTwoViewTests.swift */,
+				81B2DFD91B95F3690017E163 /* Supporting Files */,
+			);
+			path = PracTwoViewTests;
+			sourceTree = "<group>";
+		};
+		81B2DFD91B95F3690017E163 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81B2DFDA1B95F3690017E163 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81B2DFBF1B95F3690017E163 /* PracTwoView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B2DFDF1B95F3690017E163 /* Build configuration list for PBXNativeTarget "PracTwoView" */;
+			buildPhases = (
+				81B2DFBC1B95F3690017E163 /* Sources */,
+				81B2DFBD1B95F3690017E163 /* Frameworks */,
+				81B2DFBE1B95F3690017E163 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PracTwoView;
+			productName = PracTwoView;
+			productReference = 81B2DFC01B95F3690017E163 /* PracTwoView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81B2DFD41B95F3690017E163 /* PracTwoViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B2DFE21B95F3690017E163 /* Build configuration list for PBXNativeTarget "PracTwoViewTests" */;
+			buildPhases = (
+				81B2DFD11B95F3690017E163 /* Sources */,
+				81B2DFD21B95F3690017E163 /* Frameworks */,
+				81B2DFD31B95F3690017E163 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81B2DFD71B95F3690017E163 /* PBXTargetDependency */,
+			);
+			name = PracTwoViewTests;
+			productName = PracTwoViewTests;
+			productReference = 81B2DFD51B95F3690017E163 /* PracTwoViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81B2DFB81B95F3690017E163 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = landtanin;
+				TargetAttributes = {
+					81B2DFBF1B95F3690017E163 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					81B2DFD41B95F3690017E163 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 81B2DFBF1B95F3690017E163;
+					};
+				};
+			};
+			buildConfigurationList = 81B2DFBB1B95F3690017E163 /* Build configuration list for PBXProject "PracTwoView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81B2DFB71B95F3690017E163;
+			productRefGroup = 81B2DFC11B95F3690017E163 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81B2DFBF1B95F3690017E163 /* PracTwoView */,
+				81B2DFD41B95F3690017E163 /* PracTwoViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81B2DFBE1B95F3690017E163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B2DFCB1B95F3690017E163 /* Main.storyboard in Resources */,
+				81B2DFD01B95F3690017E163 /* LaunchScreen.xib in Resources */,
+				81B2DFCD1B95F3690017E163 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B2DFD31B95F3690017E163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81B2DFBC1B95F3690017E163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B2DFC81B95F3690017E163 /* ViewController.swift in Sources */,
+				81B2DFC61B95F3690017E163 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B2DFD11B95F3690017E163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B2DFDC1B95F3690017E163 /* PracTwoViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81B2DFD71B95F3690017E163 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81B2DFBF1B95F3690017E163 /* PracTwoView */;
+			targetProxy = 81B2DFD61B95F3690017E163 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81B2DFC91B95F3690017E163 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81B2DFCA1B95F3690017E163 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81B2DFCE1B95F3690017E163 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81B2DFCF1B95F3690017E163 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81B2DFDD1B95F3690017E163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81B2DFDE1B95F3690017E163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81B2DFE01B95F3690017E163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PracTwoView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81B2DFE11B95F3690017E163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PracTwoView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		81B2DFE31B95F3690017E163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PracTwoViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracTwoView.app/PracTwoView";
+			};
+			name = Debug;
+		};
+		81B2DFE41B95F3690017E163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PracTwoViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracTwoView.app/PracTwoView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81B2DFBB1B95F3690017E163 /* Build configuration list for PBXProject "PracTwoView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B2DFDD1B95F3690017E163 /* Debug */,
+				81B2DFDE1B95F3690017E163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B2DFDF1B95F3690017E163 /* Build configuration list for PBXNativeTarget "PracTwoView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B2DFE01B95F3690017E163 /* Debug */,
+				81B2DFE11B95F3690017E163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81B2DFE21B95F3690017E163 /* Build configuration list for PBXNativeTarget "PracTwoViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B2DFE31B95F3690017E163 /* Debug */,
+				81B2DFE41B95F3690017E163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81B2DFB81B95F3690017E163 /* Project object */;
+}
