@@ -25,6 +25,26 @@
             </objects>
             <point key="canvasLocation" x="840" y="967"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="mr8-5a-kUt">
+            <objects>
+                <viewController id="4qe-0w-alS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zGc-Jn-HTR"/>
+                        <viewControllerLayoutGuide type="bottom" id="dlj-Wv-meP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9gy-qd-ps4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eJW-cM-2U5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1221" y="967"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="xSq-jx-ER7">
             <objects>
