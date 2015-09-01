@@ -18,7 +18,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="hPv-GL-Gt9">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="RaA-AY-tEr"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="RaA-AY-tEr">
+                            <connections>
+                                <segue destination="4qe-0w-alS" kind="push" id="tTW-J8-vyx"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
@@ -40,6 +44,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="maY-W6-k1F"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
