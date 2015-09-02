@@ -22,7 +22,11 @@ class ViewController2: UIViewController {
     }
     
     @IBAction func FirstButton(sender: UIButton) {
-    }
+        
+        self.navigationController?.popToRootViewControllerAnimated(true)
+        
+        
+    } // First Button
 
     /*
     // MARK: - Navigation
@@ -34,4 +38,4 @@ class ViewController2: UIViewController {
     }
     */
 
-}
+} // Main Class
