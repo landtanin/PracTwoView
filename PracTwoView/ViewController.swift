@@ -22,7 +22,12 @@ class ViewController: UIViewController {
     
     
     @IBAction func SecondButton(sender: UIButton) {
-    }
+        
+        let secondShow = self.storyboard?.instantiateViewControllerWithIdentifier("view2") as!ViewController2
+        self.navigationController?.pushViewController(secondShow, animated: true)
+       
+        
+    } // Second Button
 
 
 } // Main Class

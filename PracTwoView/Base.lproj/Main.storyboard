@@ -47,7 +47,7 @@
         <!--Second-->
         <scene sceneID="mr8-5a-kUt">
             <objects>
-                <viewController id="4qe-0w-alS" customClass="ViewController2" customModule="PracTwoView" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="view2" id="4qe-0w-alS" customClass="ViewController2" customModule="PracTwoView" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zGc-Jn-HTR"/>
                         <viewControllerLayoutGuide type="bottom" id="dlj-Wv-meP"/>
